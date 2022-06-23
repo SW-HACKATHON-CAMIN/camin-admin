@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    padding: 30px;
+}
+
+.ft-12 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.2rem;
+}
+
+.name {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.8rem;
+}
+
+.title {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 3rem;
+}
+
+.tag {
+    border-radius: 40px;
+    background-color: #FF947A;
+    color: #fff;
+    padding: 8px 20px;
+    display: inline-block;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section#tabs {
+    padding: 0 30px;
+}
+
+.card-section {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.w-43 {
+    width: 43%;
+}
+
+
+.order-card {
+    width: 240px;
+    height: 400px;
+    display: inline-grid;
+    background-color: #ffffff;
+    padding: 30px 30px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 30px 30px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.info-card img {
+    width: 100%;
+    height: 55vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card .card-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card .card-description {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.card-buttons {
+    margin-top: 30px;
+}
+
+.card-buttons button {
+    width: 45%;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    border: none;
+}
+
+.card .left, .card .right {
+    width: 47%;
+    display: inline-block;
+}
+
+.card .left {
+    height: 100%;
+}
+
+.card .right {
+    margin-left: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.bg-blue {
+    background-color: #2F80ED !important;
+    color: #ffffff;
+}
+
+.bg-green {
+    background-color: #27AE60 !important;
+    color: #ffffff;
+}
+
+.bg-yellow {
+    background-color: #F2994A !important;
+    color: #ffffff;
+}
+
+.bg-red {
+    background-color: #EB5757 !important;
+    color: #ffffff;
+}
+
+.border-blue {
+    border: 1px solid #2F80ED !important;
+    color: #2F80ED;
+}
+
+.border-green {
+    border: 1px solid #27AE60 !important;
+    color: #27AE60;
+}
+
+.border-yellow {
+    border: 1px solid #F2994A !important;
+    color: #F2994A;
+}
+
+.border-red {
+    border: 1px solid #EB5757 !important;
+    color: #EB5757;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.tab-menu {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tab-menu ul li {
+    display: inline-block;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    background: #ffffff;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tab-menu label {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.tab-menu input {
+    display: none;
+}
+
+.tabCon {
+    width: 100%;
+    display: none;
+    text-align: left;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    box-sizing: border-box;
+}
+
+.tab-menu input:checked ~ label {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.tab-menu input:checked ~ .tabCon {
+    display: block;
+}
+
+.order-title {
+    font-size: 1.4rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.order-list p {
+    margin: 0;
+}
+
+.order-price {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.mr-1 {
+    margin-right: 12px !important;
+}
+
+.card .order-buttons button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    border: none;
+}
+
+.info-card p {
+    margin: 0;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.info-address {
+    font-size: 1.2rem;
+    margin: 10px 0 30px 0 !important;
+}
+
+.info-tags div {
+    display: inline-block;
+    padding: 2px 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.login-section {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.kakao-login-btn {
+    display: block;
+    width: 350px !important;
+    height: auto !important;
+    margin-bottom: 30px;
+}
+
+
+.login-card {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 30px 30px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.sub-title {
+    width: 160px;
+    margin: 30px 0;
+}
+
+.mt-2 {
+    margin: 20px 0;
+}
